@@ -13,4 +13,12 @@
 class Post < ActiveRecord::Base
   belongs_to :author
 
+  # def author_name
+  #   if author
+  #     author.name
+  #   else
+  #     "No author for this post"
+  #   end
+  # end
+
 end
